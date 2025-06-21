@@ -1,7 +1,8 @@
-//your code hereconst inputBox = document.getElementById('evaluatedText');
-const countDisplay = document.getElementById('letterCount');
+window.addEventListener('DOMContentLoaded', () => {
+  const inputBox = document.getElementById('evaluatedText');
+  const countDisplay = document.getElementById('letterCount');
 
-inputBox.addEventListener('input', () => {
-  countDisplay.textContent = inputBox.value.length;
+  inputBox.addEventListener('input', () => {
+    countDisplay.textContent = inputBox.value.length;
+  });
 });
-
