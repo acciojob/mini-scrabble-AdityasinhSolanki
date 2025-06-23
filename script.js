@@ -1,8 +1,6 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const inputBox = document.getElementById('evaluatedText');
-  const countDisplay = document.getElementById('letterCount');
+const inputBox = document.getElementById("evaluatedText");
+const letterCount = document.getElementById("letterCount");
 
-  inputBox.addEventListener('input', () => {
-    countDisplay.textContent = inputBox.value.length;
-  });
+inputBox.addEventListener("input", () => {
+  letterCount.textContent = inputBox.value.length;
 });
